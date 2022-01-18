@@ -1,0 +1,199 @@
+body {
+    height: 100%;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, #b92b27, #1565c0)
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none
+    
+}
+
+
+
+.box {
+    width: 100%;
+    max-width: 900px;
+    padding: 40px;
+    background: black;
+    text-align: center;
+    
+    margin-top: 50px;
+    border:none
+}
+
+.box .form-control
+{
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.25s;
+    background: black;
+    border:none
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.box .sbmt {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+.box input[type="time"],
+.box input[type="date"] {
+    border: 0;
+    background: none;
+    display: block;
+    padding: 14px 40px;
+    border: 2px solid #2ecc71;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #252424;
+    cursor: pointer;
+    margin: 15px auto;
+    max-width: 500px;
+}
+
+.box select[id="saat"]{
+    border: 0;
+    background: none;
+    display: block;
+    padding: 5px 40px;
+    border: 2px solid #2ecc71;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #252424;
+    cursor: pointer;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+
+
+.box .sbmt:hover {
+    background: #2ecc71;
+}
+
+.forgot {
+    text-decoration: underline
+}
+
+.cardd{
+    max-height: 80px;
+    max-width:  80px;
+
+    height: 100%;
+    width: 100%;
+
+    padding :20px 20px;
+    background: green;
+
+}
+
+.box .oda {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px 20px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 10px 30px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.box .oda:hover {
+    background: #2ecc71;
+}
+
+.box .oda2 {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px 20px;
+    text-align: center;
+    border: 2px solid #ff1500;
+    padding: 10px 30px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+.ortala
+{
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
