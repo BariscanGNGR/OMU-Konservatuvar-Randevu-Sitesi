@@ -3,6 +3,7 @@ Ondokuz Mayıs Üniversitesi Konservatuvar öğrencilerine yazdığım müzik od
 Üyelik sistemi vardır.
 
 Standart kullanıcılar
+
 		Aldığınız randuvuları geçmiş ve aktif olarak görüntüleyebilir ve iptal edebilirsiniz.
 		Randevu alabilir kendi randevularını görüntüleyebilir.
 		Kullanıcılar Ad soyad şifre telefon numarası bilgilerini değişebilir.
@@ -11,6 +12,7 @@ Standart kullanıcılar
 	
 
 Yetkili kullanıcılar
+
 		Oda silip ekleyebilir.
 		Oda aktif edebilir deaktif edebilir saatlerini belirliyebilir.
 		Kullanıcı yasaklayabilir veya yetki verebilir.
@@ -20,10 +22,12 @@ Yetkili kullanıcılar
 
 
 Kurulum 
+
 		php/sqlbaglanti.php sql bilgilerini giriniz.
 		php/mail.php mail bilgilerini giriniz
 		/randevu-sitesi.sql sql dosyasını mysql'e ekleyiniz.
 
 
 demo
+
 	http://bariscangungor.com.tr/randevu
